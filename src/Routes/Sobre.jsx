@@ -16,8 +16,8 @@ const Sobre = () =>{
                 <button className="bg-[#946631] mt-10 w-50 h-15 rounded-2xl font-semibold text-2xl hover:scale-95 hover:text-white">Solução</button>
             </div>
             <div className="mr-50 ml-20 ">
-                <img src={SobreImg1}></img>
-                <img src={SobreImg2}></img>
+                <img src={SobreImg1} className="rounded-3xl mb-5"></img>
+                <img src={SobreImg2} className="rounded-3xl"></img>
             </div>
             
         </div>
