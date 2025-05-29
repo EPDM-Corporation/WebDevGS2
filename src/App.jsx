@@ -1,9 +1,10 @@
 import Home from "./Routes/Home";
+import Login from "./Routes/Login";
 
 function App() {
   return (
     <>
-      <Home />
+      <Login />
     </>
   )
 }
