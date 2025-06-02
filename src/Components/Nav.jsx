@@ -14,8 +14,8 @@ const Nav = () => {
         </div>
 
         <div>
-            <Link className='m-2 bg-[#946631] w-[90px] h-[54px] px-[24px] py-[13px] rounded-[30px] text-white transition duration-300 ease-in-out hover:text-[#C5C4C4]'>Login</Link>
-            <Link className='m-2 bg-[#946631] w-[127px] h-[54px] px-[24px] py-[13px] rounded-[30px] text-white transition duration-300 ease-in-out hover:text-[#C5C4C4] '>Cadastrar</Link>
+            <Link to="/login" className='m-2 bg-[#946631] w-[90px] h-[54px] px-[24px] py-[13px] rounded-[30px] text-white transition duration-300 ease-in-out hover:text-[#C5C4C4]'>Login</Link>
+            <Link to="/cadastrar" className='m-2 bg-[#946631] w-[127px] h-[54px] px-[24px] py-[13px] rounded-[30px] text-white transition duration-300 ease-in-out hover:text-[#C5C4C4] '>Cadastrar</Link>
         </div>
     </header>
   )

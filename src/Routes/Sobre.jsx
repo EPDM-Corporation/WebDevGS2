@@ -1,8 +1,10 @@
 import SobreImg1 from "../assets/sobre1.PNG"
 import SobreImg2 from "../assets/sobre2.PNG"
+import Nav from '../Components/Nav'
 const Sobre = () =>{
     return(
         <>
+        <Nav/>
         <div className="w-screen h-screen bg-[#24140B] flex items-center ">
             <div className="ml-70 text-[#CDC8C8]">
                 <h1 className="text-6xl font-bold mb-10">Sobre Nós</h1>
