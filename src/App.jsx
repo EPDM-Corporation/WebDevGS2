@@ -1,3 +1,4 @@
+import { BrowserRouter,Routes, Route } from 'react-router-dom'
 import Home from "./Routes/Home";
 import Login from "./Routes/Login";
 import Cadastrar from "./Routes/Cadastrar";
@@ -8,7 +9,14 @@ import Sobre from "./Routes/Sobre";
 function App() {
   return (
     <>
-      <Sobre/>
+      <BrowserRouter>
+        <Routes> 
+          <Route path='*' element={<Error/>}/>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/sobre' element={<Sobre/>}/>
+          <Route path='/login' element={<Login/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
