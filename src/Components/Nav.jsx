@@ -10,7 +10,7 @@ const Nav = () => {
         <div className='flex justify-around items-center gap-7'>
             <Link to="/" className='text-[18px] text-[#FFFFFF] transition duration-300 ease-in-out hover:text-gray-500'>Home</Link>
             <Link to="/sobre" className='text-[18px] text-[#FFFFFF] transition duration-300 ease-in-out hover:text-gray-500'>Sobre</Link>
-            <Link to="/" className='text-[18px] text-[#FFFFFF] transition duration-300 ease-in-out hover:text-gray-500'>Solução</Link>
+            <Link to="/solucao" className='text-[18px] text-[#FFFFFF] transition duration-300 ease-in-out hover:text-gray-500'>Solução</Link>
         </div>
 
         <div>
