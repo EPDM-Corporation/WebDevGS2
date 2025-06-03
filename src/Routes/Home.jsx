@@ -2,11 +2,12 @@ import ImgHome1 from '../assets/enchente1.PNG';
 import ImgHome2 from "../assets/enchente2.PNG";
 import ImgHome3 from "../assets/enchente3.PNG";
 import ImgHome4 from "../assets/enchente4.PNG";
-
+import Header from '../Components/Nav'
 
 const Home = () => {
   return (
     <>
+    <Header/>
       <div className=" w-full h-screen ">
         <div className="flex items-center justify-center ">
           <img src={ImgHome1} className="top-0 left-0 w-full h-[140vh]  "/> 
