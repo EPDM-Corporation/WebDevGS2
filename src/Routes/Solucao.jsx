@@ -1,9 +1,11 @@
 import Solucao1 from '../assets/solucao1.png';
 import Solucao2 from '../assets/solucao2.png';
 import Solucao3 from '../assets/solucao3.png';
+import Header from '../Components/Nav' // Assuming you have a CSS file for styles
 const Solucao = () =>{
     return(
         <>
+        <Header/>
         <div className='w-screen h-screen bg-[#24140B] flex items-center justify-center text-[#CDC8C8] '>
             <div className='w-1/2 '>
                 <h1 className='text-6xl mb-10'>Solução</h1>

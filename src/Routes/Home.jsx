@@ -3,6 +3,7 @@ import ImgHome2 from "../assets/enchente2.PNG";
 import ImgHome3 from "../assets/enchente3.PNG";
 import ImgHome4 from "../assets/enchente4.PNG";
 import Header from '../Components/Nav'
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
               que vão muito além do dano material.
             </h2>
 
-            <button className=" bg-[#946631] px-10 py-2 rounded-full text-2xl hover:scale-95 transition-all duration-80 hover:text-[#C5C4C4]">Saiba Mais</button>
+            <Link to="/solucao"><button className=" bg-[#946631] px-10 py-2 rounded-full text-2xl hover:scale-95 transition-all duration-80 hover:text-[#C5C4C4]">Saiba Mais</button></Link>
           </div>
         </div>
 
