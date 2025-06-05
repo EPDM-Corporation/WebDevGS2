@@ -1,6 +1,7 @@
 import EmailSenha from "../Components/EmailSenha";
 import Voltar from "../Components/Voltar";
 import LoginImage from "../assets/Login.PNG"; // Assuming you have a login image
+import { Link } from "react-router-dom";
 const Login = () =>{
     return(
         <>
@@ -12,6 +13,7 @@ const Login = () =>{
             buttonText="Login"/>
 
             <img src={LoginImage} alt="Login" className="w-2/5 h-screen object-cover"/>
+            
         </div>
 
         </>
