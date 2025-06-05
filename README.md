@@ -5,8 +5,7 @@ Este é um projeto e que tem como o objetivo apresentar uma solução para ameni
 HTML
 CSS (Tailwind e CSS Grid)
 Javascript
-Link do Site
-https://eriksug.github.io/GSFrontEnd-AquaAlert/
+L
 
 # Integrantes
 Erik Kaiyu Suguiyama
