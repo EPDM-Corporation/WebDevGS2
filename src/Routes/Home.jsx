@@ -11,7 +11,7 @@ const Home = () => {
     <>
     <Header/>
        
-      <div className=" w-full h-screen ">
+      <div>
         <div className="flex items-center justify-center ">
           <img src={ImgHome1} className="top-0 left-0 w-full h-[140vh]  "/> 
 
@@ -57,7 +57,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+      <Footer></Footer>
     </>
   )
 }
