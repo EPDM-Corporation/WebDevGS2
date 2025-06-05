@@ -1,6 +1,7 @@
 import SobreImg1 from "../assets/sobre1.PNG"
 import SobreImg2 from "../assets/sobre2.PNG"
 import Nav from '../Components/Nav'
+import Footer from "../Components/Footer"
 const Sobre = () =>{
     return(
         <>
@@ -23,6 +24,7 @@ const Sobre = () =>{
             </div>
             
         </div>
+           <Footer/>
         </>
     )
 }
