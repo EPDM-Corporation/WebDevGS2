@@ -4,16 +4,23 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faTelegram } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-router-dom'
+
 
 const Footer = () => {
   return (
-    <footer className='h-[300px] bg-[#1A2F08]'>
-      <div>
-        <FontAwesomeIcon icon={faFacebook}  className='bg-white'/>
-        <FontAwesomeIcon icon={faGithub}  className='bg-white'/>
-        <FontAwesomeIcon icon={faTelegram}  className='bg-white'/>
-        <FontAwesomeIcon icon={faInstagram}  className='bg-white'/>
+    <footer className='h-[300px] bg-[#1A2F08] flex flex-col  items-center gap-5'>
+      {/* <div>
+        <FontAwesomeIcon icon={faFacebook}  className='p-[5px]  text-white rounded-[100px] transition ease-in-out hover:text-gray-500' size='3x'/>
+        <FontAwesomeIcon icon={faGithub}  className='p-[5px]  text-white rounded-[100px] transition ease-in-out hover:text-gray-500' size='3x'/>
+        <FontAwesomeIcon icon={faTelegram}  className='p-[5px] text-white rounded-[100px] transition ease-in-out hover:text-gray-500' size='3x'/>
+        <FontAwesomeIcon icon={faInstagram}  className='p-[5px] text-white rounded-[100px] transition ease-in-out hover:text-gray-500' size='3x'/>
       </div>
+      <div className='flex justify-center gap-5 items-center'>
+        <Link to="/" className='text-white text-[24px]'>Home</Link>
+        <Link to="/sobre" className='text-white text-[24px]'>Sobre</Link>
+        <Link to="/solucao" className='text-white text-[24px]'>Solução</Link>
+      </div> */}
     </footer>
   )
 }

@@ -6,7 +6,7 @@ const Sobre = () =>{
     return(
         <>
         <Nav/>
-        <div className="w-screen h-screen bg-[#24140B] flex items-center ">
+        <div className="h-screen bg-[#24140B] flex items-center ">
             <div className="ml-70 text-[#CDC8C8]">
                 <h1 className="text-6xl font-bold mb-10">Sobre Nós</h1>
                 <h2 className="font-light text-lg">
