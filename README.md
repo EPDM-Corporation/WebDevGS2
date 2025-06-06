@@ -8,6 +8,6 @@ Este é um projeto e que tem como o objetivo apresentar uma solução para ameni
 
 
 # Integrantes
-Erik Kaiyu Suguiyama
-Guilherme Vital
-Lucas Guerreiro
+- Erik Kaiyu Suguiyama
+- Guilherme Vital
+- Lucas Guerreiro
