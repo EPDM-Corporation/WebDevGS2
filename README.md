@@ -6,7 +6,8 @@ Este é um projeto e que tem como o objetivo apresentar uma solução para ameni
 - CSS (Tailwind)
 - Javascript
 
-
+# Link do repositório
+https://github.com/EPDM-Corporation/WebDevGS2/
 # Integrantes
 - Erik Kaiyu Suguiyama
 - Guilherme Vital
