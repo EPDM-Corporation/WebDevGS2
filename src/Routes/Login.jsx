@@ -4,19 +4,17 @@ import LoginImage from "../assets/Login.PNG"; // Assuming you have a login image
 import { Link } from "react-router-dom";
 const Login = () =>{
     return(
-        <>
-        <div className="flex">
+        <section className="flex">
             <Voltar/>
             <EmailSenha 
             title="Login"
             subtitle="Entre com seu Email e Senha"
-            buttonText="Login"/>
+            buttonText="Login"
+            type="login"/>
 
             <img src={LoginImage} alt="Login" className="w-2/5 h-screen object-cover"/>
-            
-        </div>
+        </section>
 
-        </>
     )
 }
 export default Login;
