@@ -2,11 +2,13 @@ import Solucao1 from '../assets/solucao1.png';
 import Solucao2 from '../assets/solucao2.png';
 import Solucao3 from '../assets/solucao3.png';
 import Header from '../Components/Nav' // Assuming you have a CSS file for styles
+import Footer from '../Components/Footer';
+
 const Solucao = () =>{
     return(
         <>
         <Header/>
-        <div className='w-screen h-screen bg-[#24140B] flex items-center justify-center text-[#CDC8C8] '>
+        <div className='h-screen bg-[#24140B] flex items-center justify-center text-[#CDC8C8] '>
             <div className='w-1/2 '>
                 <h1 className='text-6xl mb-10'>Solução</h1>
                 <h2 className='text-lg'>Nossa solução para o monitoramento de inundações é baseada no uso de tecnologia acessível e eficiente.<br/> Propomos a utilização do Arduino ESP32 integrado com sensores de nível de água, que serão instalados <br/>nas margens dos rios. Esses sensores realizam medições constantes da altura do rio e enviam os dados <br/>automaticamente por meio de rede sem fio.
@@ -22,6 +24,7 @@ const Solucao = () =>{
 
                 </div>
         </div>
+        <Footer/>
         </>
     )
 }
