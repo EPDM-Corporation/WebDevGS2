@@ -26,7 +26,7 @@ const Login = () => {
             database.forEach(conta =>{
                 if(dadosLogin['email'] == conta['email'] && dadosLogin['senha'] == conta['senha']){
                     alert("Acesso liberado.")
-                    localStorage.setItem('user',dadosLogin['email'])
+                    localStorage.setItem('email',dadosLogin['email'])
                     usuarioFlag = true;
                     navigate('/')
                     return
